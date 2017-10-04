@@ -142,14 +142,8 @@ a:hover {
     color: #292424;
     color: rgba(68, 54, 54, 0.8);
     bottom: 120px;
+    left: 500px
     font-family: 'Courgette', cursive;
-}
-
-.ml3 span{
-    display: block;
-    position: absolute;
-    float: left;
-    left: 2em;
 }
 
 
