@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Philia's Portdlio</title>
+        <link rel="stylesheet" href="stylesheets/normalize.css">
+        <link rel="stylesheet" href="stylesheets/styles.css">
+        <script src="https://use.fontawesome.com/b5bd1ca842.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Clicker+Script" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    </head>
+    <body>
+        <header class="page-header">
+            <div class="top-menu">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa fa-id-badge"></i>About me</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-envelope"></i></i>Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="top-block">
+                <div class="container">
+                    <h1 class="logo"><a href="#">Philia</a></h1>
+                </div>
+            </div>
+        </header>
+        <nav class="main-menu">
+                <div class="container">
+                        <ul>
+                                <li>
+                                    <a href="#">Exhibition Design</a>
+                                </li>
+                                <li>
+                                    <a href="#">Graphic Design</a>
+                                </li>
+                                <li>
+                                    <a href="#">User Interface Design</a>
+                                </li>
+                                <li>
+                                    <a href="#">Photography</a>
+                                </li>
+                        </ul>
+                        
+                </div>
+        </nav>
+        
+    
+        </div class="composition">
+            
+            <div class="composition" style="background-color: #224a54">
+                
+                <pre class="hidden">
+                    <code class="composition-static-html">&lt;h1 class="ml3"&gt;Do Good Work For Good People&lt;/h1&gt;
+
+                    </code>
+                </pre>
+            
+                <div class="composition-wrapper composition-active" data-color="224a54">
+                    <h1 class="ml3" style="opacity: 1;">
+                        <span class="letter" style="opacity: 1;">D</span>
+                        <span class="letter" style="opacity: 1;">o</span>
+                        <span class="letter" style="opacity: 1;">G</span>
+                        <span class="letter" style="opacity: 1;">o</span>
+                        <span class="letter" style="opacity: 1;">o</span>
+                        <span class="letter" style="opacity: 1;">D</span>
+                        <span class="letter" style="opacity: 1;">W</span>
+                        <span class="letter" style="opacity: 1;">o</span>
+                        <span class="letter" style="opacity: 1;">r</span>
+                        <span class="letter" style="opacity: 1;">k</span>
+                        <span class="letter" style="opacity: 1;">F</span>
+                        <span class="letter" style="opacity: 1;">o</span>
+                        <span class="letter" style="opacity: 1;">r</span>
+                        <span class="letter" style="opacity: 1;">G</span>
+                        <span class="letter" style="opacity: 1;">o</span>
+                        <span class="letter" style="opacity: 1;">o</span>
+                        <span class="letter" style="opacity: 1;">d</span>
+                        <span class="letter" style="opacity: 1;">P</span>
+                        <span class="letter" style="opacity: 1;">e</span>
+                        <span class="letter" style="opacity: 1;">o</span>
+                        <span class="letter" style="opacity: 1;">p</span>
+                        <span class="letter" style="opacity: 1;">l</span>
+                        <span class="letter" style="opacity: 1;">e</span>
+                    </h1>
+                    <!--more-->
+                    <script>
+                        // Wrap every letter in a span
+                        $('.ml3').each(function(){
+                        $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/D, "<span class='letter'>$&</span>"));
+                        });
+            
+                        anime.timeline({loop: true})
+                        .add({
+                            targets: '.ml3 .letter',
+                            opacity: [0,1],
+                            easing: "easeInOutQuad",
+                            duration: 2250,
+                            delay: function(el, i) {
+                            return 150 * (i+1)
+                            }
+                        }).add({
+                            targets: '.ml3',
+                            opacity: 0,
+                            duration: 1000,
+                            easing: "easeOutExpo",
+                            delay: 1000
+                        });
+                    </script>
+                    
+                    <style>
+                        .ml3 {
+                        font-weight: 900;
+                        font-size: 3.5em;
+                        }
+                    </style>
+                </div>
+            </div>
+        </div>
+        
+        <footer class="page-footer">
+                <div class="container">
+                        <div class="contact">
+                                <ul>
+                                  <li><a href="#"><i class="fa fa-envelope"></i><contact>philia1010@gmail.com</contact></a></li>
+                                  <li><a href="#"><i class="fa fa-globe"></i><contact>philia.wang/portfolio</contact></a></li>
+                                </ul>
+                        </div>
+                        <div class="copyright">
+                                Copyright &copy; 2017 Philia Inc.
+                        </div>
+                        
+                </div>
+    
+        </footer>
+    </body>
+</html>
