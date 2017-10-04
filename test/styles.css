@@ -128,7 +128,7 @@ a:hover {
 
 .index-image{
     height: 415px;
-    background: url(/index-image.jpg) center center no-repeat;
+    background: url(index-image.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
     top: 3px;
