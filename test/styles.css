@@ -128,62 +128,28 @@ a:hover {
 
 .index-image{
     height: 415px;
-    background: url(../image/index-image.jpg) center center no-repeat;
+    background: url(/index-image.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
     top: 3px;
     margin-bottom: 0px;
 }
 
-element.style {
-    opacity: 1;
-
-
-.composition {
-    color: #fff;
-    flex: 1 50%;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.composition h1 {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0.5em;
-    left: 0;
-    margin: auto;
-    height: 1em;
-}
 
 
 
-.composition-active {
-    width: 50%;
-    right: auto;
-    left: 0;
-    z-index: 3000;
-    position: fixed;
-}
 
-.composition-wrapper {
-    transform: translateZ(0);
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
 
-div {
-    display: block;
-}
 
-script {
-    display: none;
-}
+
+
+
+
+
+
+
+
+
 
 h1 {
     font-style: normal;
