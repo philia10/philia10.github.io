@@ -141,15 +141,13 @@ a:hover {
     font-size: 40px;
     color: #292424;
     color: rgba(68, 54, 54, 0.8);
-    position: relative;
-    left:80%
     bottom: 120px;
     font-family: 'Courgette', cursive;
 }
 
 .ml3 span{
     display: block;
-    position: relative;
+    position: absolute;
     float: left;
     left: 2em;
 }
