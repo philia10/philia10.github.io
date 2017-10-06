@@ -156,8 +156,7 @@ script {
     color: #292424;
     color: rgba(68, 54, 54, 0.8);
     position: absolute;
-    left: 60%;
-    margin-left: 90px;
+    left: 55%;
     bottom: 180px;
     font-family: 'Courgette', cursive;
 }
