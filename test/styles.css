@@ -63,7 +63,8 @@ a:hover {
 }
 
 .top-block .container{
-    padding: 9px 0;
+    width: 200px;
+    padding: 0 0;
     position: relative;
 }
 
