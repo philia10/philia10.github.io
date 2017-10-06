@@ -26,6 +26,10 @@ a:hover {
     position: relative;
 }
 
+.top-menu .container{
+    width:700px;
+}
+
 .top-menu ul {
     margin: 0;
     padding: 0;
