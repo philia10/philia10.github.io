@@ -155,18 +155,9 @@ script {
     display: none;
 }
 
-h1 {
-    font-style: normal;
-    font-size: 45px;
-    font-weight: normal;
-    vertical-align: baseline;
-    margin: 0;
-    padding: 0;
-}
 
 .ml3{
-    font-weight: 900;
-    font-size: 40px;
+    font-size: 2em;
     color: #292424;
     color: rgba(68, 54, 54, 0.8);
     position: absolute;
