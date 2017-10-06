@@ -95,6 +95,10 @@ a:hover {
     border-top: #ddd 1px solid;
 }
 
+.main-menu .container{
+    width: 800px;
+}
+
 .main-menu ul {
     margin: 0;
     padding: 0;
