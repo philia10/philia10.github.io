@@ -141,6 +141,10 @@ a:hover {
     margin-bottom: 3px;
 }
 
+.index-image .container{
+    width:500px;
+    margin-left:10px;
+}
 
 
 div {
