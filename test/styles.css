@@ -194,6 +194,10 @@ h1 {
     position: relative;
 }
 
+.page-footer .container{
+    width:800px;
+}
+
 .page-footer ul{
     margin: 0;
     padding: 3px;
