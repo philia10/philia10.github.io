@@ -30,7 +30,6 @@ a:hover {
     margin: 0;
     padding: 0;
     list-style: none;
-    position: center;
 }
 
 .top-menu a{
@@ -50,6 +49,7 @@ a:hover {
 .top-menu li{
     float: left;
     margin-left: 100px;
+    position: center;
 }
 
 .top-menu a:hover{
