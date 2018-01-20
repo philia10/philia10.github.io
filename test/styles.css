@@ -207,9 +207,6 @@ script {
     color: white;
 }
 
-.d-block w-100{
+.carousel-inner{
     height: 415px;
-    position: relative;
-    top: 3px;
-    margin-bottom: 3px;
 }
