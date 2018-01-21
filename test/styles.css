@@ -211,14 +211,7 @@ script {
     height: 415px;
 }
 
-.carousel-item active{
-    height: 415px;
-}
 
 .d-block.w-100{
-   height: auto;
-   display: inline-block;
-   max-width: 100%;
-   object-fit: cover;
-   object-position: 100%, 0;
+   object-fit: contain;
 }
