@@ -211,6 +211,10 @@ script {
     height: 415px;
 }
 
+.carousel-item active{
+    height: 415px;
+}
+
 .d-block.w-100{
    height: auto;
    display: inline-block;
