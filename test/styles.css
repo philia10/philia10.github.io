@@ -212,7 +212,5 @@ script {
 }
 
 .d-block.w-100{
-    position: relative;
-    height:75%;
-    width:75%;
+   object-fit: cover;
 }
