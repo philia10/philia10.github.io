@@ -198,6 +198,10 @@ script {
     background-color: rgba(145,190,200,.8);
 }    
 
+.carousel-indicators.active{
+    background-color: #ffd968;
+}    
+
 
 .d-block.w-100{
    object-fit: contain;
