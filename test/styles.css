@@ -192,8 +192,9 @@ script {
 }
 
 .carousel-indicators li{
-    max-width:5px;
-    height:5px;
+    max-width:10px;
+    height:10px;
+    border-radius:5px;
 }    
 
 .d-block.w-100{
