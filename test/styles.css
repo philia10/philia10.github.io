@@ -191,6 +191,10 @@ script {
     height: 519px;
 }
 
+.carousel-indicators li{
+    max-width:5px;
+    height:5px;
+}    
 
 .d-block.w-100{
    object-fit: contain;
