@@ -12,6 +12,7 @@ a {
 
 a:hover {
     color: #0081c3;
+    text-decoration: none;
 }
 
 .container {
