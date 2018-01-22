@@ -56,6 +56,7 @@ a:hover {
 
 .top-menu a:hover{
     background: #52AA91;
+    text-decoration: none;
 }
 
 .top-block{
@@ -124,6 +125,7 @@ a:hover {
 .main-menu a:hover{
     color:#fff;
     background: #4EA78C;
+    text-decoration: none;
 }
 
 
