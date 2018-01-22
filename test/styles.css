@@ -126,6 +126,7 @@ a:hover {
 }
 
 .main-menu a:hover{
+    color: #0081c3;
     background: #4EA78C;
     text-decoration: none;
 }
