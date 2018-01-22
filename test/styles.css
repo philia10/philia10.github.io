@@ -74,11 +74,14 @@ a:hover {
     height: 150px;
     line-height:150px;
     margin: 0;
-    color: black;
+    color: #000000;
     font-family: 'Clicker Script', cursive;
     text-align: center;
 }
 
+.logo a{
+    color:#000000;
+}    
 
 
 
