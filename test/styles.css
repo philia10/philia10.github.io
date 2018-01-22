@@ -202,3 +202,7 @@ script {
 .d-block.w-100{
    object-fit: contain;
 }
+
+.fa fa-linkedin-square{
+    transform: scale(1.2);
+}
