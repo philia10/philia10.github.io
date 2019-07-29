@@ -82,17 +82,13 @@ a:hover {
 .logo a{
     color:#000000;
     cursor:pointer;
-}    
+}
 
 
 
 .main-menu {
     height: 40px;
     border-top: #ddd 1px solid;
-}
-
-.main-menu .container{
-    width: 800px;
 }
 
 .main-menu ul {
@@ -114,7 +110,6 @@ a:hover {
 .main-menu li{
     float: left;
     width: 25%;
-    margin-left: 40px;
 }
 
 .main-menu a:hover{
@@ -196,11 +191,11 @@ script {
     height:10px;
     border-radius:5px;
     background-color: rgba(145,190,200,.8);
-}    
+}
 
 .carousel-indicators li.active{
     background-color: #ffd968;
-}    
+}
 
 
 .d-block.w-100{
