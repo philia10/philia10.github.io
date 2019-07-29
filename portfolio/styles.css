@@ -210,3 +210,7 @@ script {
 .fa.fa-linkedin-square{
     transform: scale(1.2);
 }
+
+video {
+    width: 100%;
+}
