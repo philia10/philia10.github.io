@@ -21,14 +21,6 @@
     });
 
     $('.carousel').carousel();
-
-    $('#video1').on('play', function (event) {
-      $('#video1-loader').addClass('hide-loader');
-    });
-
-    $('#video2').on('play', function (event) {
-      $('#video2-loader').addClass('hide-loader');
-    });
   </script>
 </head>
 
@@ -78,7 +70,7 @@
   <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-0" role="tabpanel" aria-labelledby="pills-contact-tab">
       <img id="video1-loader" src="../svg-loaders/three-dots.svg">
-      <video id="video1" autoplay loop muted>
+      <video id="video1" onplay="$('#video1-loader').addClass('hide-loader');" autoplay loop muted>
         <source src="../landscape.mp4" type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
       </video>
@@ -86,7 +78,7 @@
 
     <div class="tab-pane fade" id="pills-1" role="tabpanel" aria-labelledby="pills-contact-tab">
       <img id="video2-loader" src="../svg-loaders/three-dots.svg">
-      <video id="video2" autoplay loop muted>
+      <video id="video2" onplay="$('#video2-loader').addClass('hide-loader');" autoplay loop muted>
         <source src="../showreel-short.mp4" type="video/mp4">
         Sorry, your browser doesn't support embedded videos.
       </video>
