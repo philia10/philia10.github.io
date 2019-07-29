@@ -210,6 +210,12 @@ video {
     width: 100%;
 }
 
+.loader {
+    position: absolute;
+    width: 100%;
+    padding: 20% 45% 0;
+}
+
 .hide-loader {
-  display: none;
+    display: none;
 }
