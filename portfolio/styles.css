@@ -85,6 +85,11 @@ a:hover {
 }
 
 
+.small logo{
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: 'Clicker Script', cursive;
+}
 
 .main-menu {
     height: 40px;
