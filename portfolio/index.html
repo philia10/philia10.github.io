@@ -5,10 +5,6 @@
         <link rel="icon" type="image/png" href="http://philia.wang/portfolio/image/profile-pc-512px.png">
         
         <style>
-            iframe::-webkit-scrollbar { 
-                display: none; 
-            }
-            
             body {
                 margin: 0;
                 overflow: hidden;
@@ -18,12 +14,28 @@
                 width: 100vw;
                 height: 100vh;
                 border: 0;
-                transform: translate3d(0, -51px, 0);
+            }
+            
+            #mask-1 {
+                position: absolute;
+                width: 100vw;
+                height: 50px;
+                background: #fff;
+            }
+            
+            #mask-2 {
+                position: absolute;
+                right: 0;
+                width: 20px;
+                height: 100vh;
+                background: #fff;
             }
         </style>
     </head>
     
     <body>
+        <div id="mask-1"></div>
+        <div id="mask-2"></div>
         <iframe src="https://philia1010.wixsite.com/mysite"></iframe>
     </body>
 </html>
