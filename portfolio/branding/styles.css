@@ -1,12 +1,4 @@
 
-@media only screen and (max-width: 375px) {
-  .device-mobile-optimized {
-   transform-origin: 0px 0px; 
-   width: 100vw;
-   height: auto;
-   transform: none;
-  }
-}
 
 
 
